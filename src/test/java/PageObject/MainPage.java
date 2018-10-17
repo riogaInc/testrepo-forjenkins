@@ -27,7 +27,7 @@ public class MainPage extends AbstractPage {
 	}
 	
 	public MainPage validateUserInMainPage(String name) {
-		Assert.assertEquals("Nama User berbeda", "Hello, "+name, driver.findElement(By.xpath("/html/body/div[1]/header/div/div[2]/div[2]/div/a[2]/span[1]")).getText());
+		Assert.assertEquals("Nama User berbeda", "Hellox, "+name, driver.findElement(By.xpath("/html/body/div[1]/header/div/div[2]/div[2]/div/a[2]/span[1]")).getText());
 		return new MainPage(driver);
 	}
 
