@@ -44,9 +44,9 @@
 				      		<useTestNG>false</useTestNG> 
 				      		<namingScheme>simple</namingScheme>
 				      		<namingPattern>Parallel{c}Test</namingPattern> 
-				      		<parallelScheme>SCENARIO</parallelScheme> 
+				      		<parallelScheme>FEATURE</parallelScheme> 
 				      		<tags>
-				      			<tag>~@dev</tag>
+				      			<tag>@dev</tag>
 				      		</tags>
 				      	</configuration>
     				</execution>
