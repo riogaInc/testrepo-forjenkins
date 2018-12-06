@@ -1,6 +1,0 @@
-PageObject\AbstractPage.class
-autoTraining\amazon\com\AppTest.class
-autoTraining\amazon\com\TestRunner.class
-PageObject\MainPage.class
-PageObject\SignInPage.class
-StepDefinition\Login.class
